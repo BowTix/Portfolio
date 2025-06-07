@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathis Maureau - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+<!-- Section Présentation -->
+<section class="hero">
+    <div class="container">
+        <video class="hero-bg-video" autoplay loop muted playsinline>
+            <source src="Assets/gradient.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la vidéo.
+        </video>
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="Assets/pdp.jpg" alt="Photo de profil" class="profile-img">
+            </div>
+            <div class="hero-text">
+                <h1>Mathis <span class="highlight">Maureau</span></h1>
+                <p class="subtitle">Étudiant en Informatique</p>
+                <p class="school">SUPINFO Tours</p>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i><span>maureau.mathis@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i><span>07 63 85 95 81</span>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/BowTix" target="_blank" class="social-btn">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/mathis-maureau/" target="_blank" class="social-btn">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section À propos -->
+<section class="about">
+    <div class="container">
+        <h2>À propos de moi</h2>
+        <div class="about-card">
+            <p>
+                Étudiant passionné d'informatique, aussi bien côté hardware que software, je suis toujours en quête de nouvelles découvertes dans ce domaine en constante évolution. J’aime apprendre au quotidien, que ce soit à travers mes projets, mes cours ou mes expériences professionnelles.
+                J’ai notamment effectué un stage de deux mois en tant que technicien informatique chez SVI Prosis à Joué-lès-Tours, où j’ai pu développer mes compétences techniques et mon sens de l’organisation.
+            </p>
+            <br>
+            <p>
+                Autonome et adaptable, j’apprécie le travail en équipe et j’aime mettre en valeur les compétences de chacun pour faire avancer un projet dans la bonne humeur.
+                Grand amateur de sports mécaniques, je suis un passionné de Formule 1, de MotoGP et de WEC : impossible pour moi de rater une course, et encore moins une actu croustillante dans le paddock !
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Section Projets -->
+<section class="projects">
+    <div class="container">
+        <h2>Projets réalisés</h2>
+
+        <div class="project-card">
+            <div class="project-image">
+                <img src="Assets/movie-box.png" alt="Movie Box">
+            </div>
+            <div class="project-content">
+                <div class="project-header">
+                    <h3>Movie Box</h3>
+                    <a href="https://github.com/BowTix/Movie-Box" target="_blank" class="project-link">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                <p>
+                    Movie Box est un site réalisé par groupe de deux, dans le cadre d'un projet suivi d'une soutenance. Il s'agit d'un site internet regroupant des milliers de films qui utilise l'API TMDB permettant de récupérer les films et leurs informations grâce à leur ID. La page d'accueil regroupe les films populaires du moment, le site possède également une barre de recherche qui permet de chercher n'importe quel film. L'utilisateur a la possibilité de se connecter à son compte TMDB.
+                </p>
+                <div class="technologies">
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-image">
+                <img src="Assets/TactiQuatre.png" alt="Tacti'Quatre">
+            </div>
+            <div class="project-content">
+                <div class="project-header">
+                    <h3>Tacti'Quatre</h3>
+                    <a href="https://github.com/BowTix/Tacti-Quatre" target="_blank" class="project-link">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                <p>
+                    Tacti'Quatre est un jeu réalisé dans le cadre d'un projet suivi d'une soutenance. Il s'agit d'un mini jeu de plateau qui mélange les échecs, le puissance quatre et le morpion. En effet, les pions peuvent se déplacer seulement en L comme les cavaliers des échecs. Lors d'un déplacement, le joueur laisse une marque de sa couleur à son emplacement et effectue le déplacement. Le but du jeu est donc d'aligner 5 pions (valeur qui peut changer grâce à un slider).
+                </p>
+                <div class="technologies">
+                    <span class="tech-tag">Python</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-image">
+                <img src="Assets/dbs.png" alt="Drive By Silver">
+            </div>
+            <div class="project-content">
+                <div class="project-header">
+                    <h3>Drive By Silver</h3>
+                    <a href="https://github.com/BowTix/Drive-By-Silver" target="_blank" class="project-link">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                <p>
+                    Drive By Silver est un site réalisé dans le cadre d'un projet suivi d'une soutenance. Il s'agit d'un site de e-commerce qui consiste a vendre (fictivement) des produits provenant de la boutique Mercedes AMG Petronas F1 Store. Les clients peuvent parcourir les articles parmi plusieurs catégories et ont accès à tout plein d'informations et photos les concernant.
+                </p>
+                <div class="technologies">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-image">
+                <img src="Assets/supemon.png" alt="Supemon">
+            </div>
+            <div class="project-content">
+                <div class="project-header">
+                    <h3>Supemon</h3>
+                    <a href="https://github.com/BowTix/Supemon" target="_blank" class="project-link">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                <p>
+                    Supemon est un jeu réalisé par groupe de trois, dans le cadre d'un projet suivi d'une soutenance. Il s'agit d'un jeu développé en mode console basé sur le jeu vidéo pokémon. Le jeu possède toutes les fonctionnalités nécessaires pour jouer correctement. Nous pouvons faire des combats, collectionner et changer de supemon, se rendre au centre supemon, aller à la boutique d'objet et sauvegarder sa partie.
+                </p>
+                <div class="technologies">
+                    <span class="tech-tag">C</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-image">
+                <img src="Assets/fleissner.png" alt="Fleissner Grid">
+            </div>
+            <div class="project-content">
+                <div class="project-header">
+                    <h3>Fleissner Grid</h3>
+                    <a href="https://github.com/BowTix/Fleissner-Grid" target="_blank" class="project-link">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                <p>
+                    Fleissner grid est un projet d'arithmétique réalisé par groupe de deux, dans le cadre d'un projet suivi d'une soutenance. Ce projet d'arithmétique a été réalisé en groupe dans le cadre d'un exercice de cryptographie. Il utilise la méthode des grilles tournantes de Fleissner, un outil cryptographique permettant de coder et décoder des messages en positionnant des trous sur une grille puis en la tournant selon un angle prédéfini.
+                    <br><strong>C'est un système compliqué, voici donc les fonctionnalités :</strong>
+                    <br><strong>Random :</strong> Génère une grille de trous aléatoire.
+                    <br><strong>Load/Save :</strong> Charge ou sauvegarde la configuration de la grille.
+                    <br><strong>Create :</strong> Permet de dessiner les trous manuellement.
+                    <br><strong>Clock :</strong> Choisit le sens de rotation (horaire ou antihoraire).
+                    <br><strong>Grid size :</strong> Définit la taille de la grille.
+                    <br><strong>Draw :</strong> Affiche la grille selon les paramètres.
+                    <br><strong>Clear (zone de texte) :</strong> Champ pour saisir le texte à chiffrer.
+                    <br><strong>Cipher :</strong> Chiffre le texte saisi et l'affiche.
+                    <br><strong>Decipher :</strong> Déchiffre le texte dans le champ "Cipher".
+                    <br><strong>Clear (bouton) :</strong> Réinitialise tous les champs.
+                </p>
+                <div class="technologies">
+                    <span class="tech-tag">Python</span>
+                </div>
+            </div>
+        </div>
+        <h4>Autres projets à venir...</h4>
+    </div>
+</section>
+
+<!-- Section CV -->
+<section class="cv-section">
+    <div class="container">
+        <h2>Télécharger mon CV</h2>
+        <p>Découvrez mon parcours complet et mes compétences en téléchargeant mon CV.</p>
+        <a href="https://mathis-maureau-cv.tiiny.site/" download class="cv-btn">
+            <i class="fas fa-download"></i>
+            Télécharger le CV
+        </a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <p>&copy; 2024-2025 Mathis Maureau. Tous droits réservés.</p>
+    </div>
+</footer>
+</body>
+</html>
