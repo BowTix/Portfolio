@@ -8,6 +8,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: #333;
+    overflow-x: hidden;
 }
 
 .container {
@@ -24,6 +25,7 @@ body {
     display: flex;
     align-items: center;
     color: white;
+
 }
 
 .hero-bg-video {
@@ -44,7 +46,7 @@ body {
 .profile-img {
     width: 350px;
     height: 350px;
-    border-radius: 10px;
+    border-radius: 15px;
     border: 3px solid rgba(255, 255, 255, 0.3);
     object-fit: cover;
 }
@@ -58,6 +60,9 @@ body {
     position: relative;
     z-index: 1;
     min-height: 350px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 2em 4em;
+    border-radius: 20px;
 }
 
 .hero-text {
@@ -112,6 +117,7 @@ body {
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
+    margin-bottom: 25px;
 }
 
 .social-btn {
@@ -328,20 +334,23 @@ footer {
 }
 
 /* Responsive */
-@media (max-width: 1024px) {
+@media (max-width: 1124px) {
+
     .hero-content {
         gap: 40px;
     }
+
     .profile-img {
-        width: 220px;
-        height: 220px;
+        width: 300px;
+        height: 300px;
     }
+
     .hero h1 {
         font-size: 2.8rem;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 860px) {
     .hero-content {
         flex-direction: column;
         text-align: center;
@@ -353,8 +362,8 @@ footer {
     }
 
     .profile-img {
-        width: 160px;
-        height: 160px;
+        width: 200px;
+        height: 200px;
     }
 
     .hero-text {
@@ -364,6 +373,21 @@ footer {
     .hero {
         min-height: unset;
         padding: 60px 0 30px 0;
+    }
+
+    .subtitle {
+        font-size: 1.2rem;
+    }
+
+    .school {
+        font-size: 1rem;
+    }
+
+    .contact-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
     }
 
     .project-card {
@@ -405,8 +429,8 @@ footer {
     }
 
     .profile-img {
-        width: 200px;
-        height: 200px;
+        width: 160px;
+        height: 160px;
     }
 
     .about h2,
